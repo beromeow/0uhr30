@@ -72,6 +72,7 @@ body {
   @media only screen and (max-width: 768px) {
     body {
       font-size: 14px;
+      background: linear-gradient(135deg, #0f0f0f, #252525); /* Add this line */
     }
   }
   
@@ -79,6 +80,7 @@ body {
   @media only screen and (max-width: 480px) {
     body {
       font-size: 12px;
+      background: linear-gradient(135deg, #0f0f0f, #252525); /* Add this line */
     }
   }
 
