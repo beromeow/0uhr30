@@ -52,8 +52,10 @@ h1 {
 }
 
 .clock-image {
-    width: 50%;
+    max-width: 50%;
     height: auto;
+    margin: 20px auto;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 @keyframes fadeInUp {
