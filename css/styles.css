@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Swamp Witch';
-    background: linear-gradient(135deg, #0f0f0f, #252525);
+    background-color: #0f0f0f;
     color: white;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ h1 {
 /* Styles for tablet screens (max-width: 768px) */
 @media only screen and (max-width: 768px) {
     body {
-      background: linear-gradient(135deg, #0f0f0f, #252525);
+      background-color: #0f0f0f;
       font-size: 14px;
     }
   }
@@ -73,7 +73,7 @@ h1 {
   /* Styles for mobile screens (max-width: 480px) */
   @media only screen and (max-width: 480px) {
     body {
-      background: linear-gradient(135deg, #0f0f0f, #252525);
+      background-color: #0f0f0f;
       font-size: 12px;
     }
   }
