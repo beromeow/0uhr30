@@ -19,8 +19,8 @@ body {
     overflow-x: hidden;
     text-align: center;
     position: relative; /* Ensure relative positioning for pseudo-elements */
+    font-size: 16px; /* Move font-size here */
 }
-
 
 h1 {
     font-size: 4em;
@@ -62,17 +62,10 @@ h1 {
     }
 }
 
-/* Default styles for desktop screens */
-body {
-    font-size: 16px;
-    background-color: #f2f2f2;
-  }
-  
-  /* Styles for tablet screens (max-width: 768px) */
-  @media only screen and (max-width: 768px) {
+/* Styles for tablet screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
     body {
       font-size: 14px;
-      background: linear-gradient(135deg, #0f0f0f, #252525); /* Add this line */
     }
   }
   
@@ -80,7 +73,6 @@ body {
   @media only screen and (max-width: 480px) {
     body {
       font-size: 12px;
-      background: linear-gradient(135deg, #0f0f0f, #252525); /* Add this line */
     }
   }
 
@@ -92,19 +84,19 @@ body {
   
   /* Styles for tablet screens (max-width: 768px) */
   @media only screen and (max-width: 768px) {
-   .container {
+  .container {
       width: 90%;
     }
   }
   
   /* Styles for mobile screens (max-width: 480px) */
   @media only screen and (max-width: 480px) {
-   .container {
+  .container {
       width: 100%;
     }
   }
 
-  .corner-image {
+ .corner-image {
     position: fixed;
     top: 700px;
     right: -30px;
