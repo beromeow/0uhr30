@@ -65,6 +65,7 @@ h1 {
 /* Styles for tablet screens (max-width: 768px) */
 @media only screen and (max-width: 768px) {
     body {
+      background: linear-gradient(135deg, #0f0f0f, #252525);
       font-size: 14px;
     }
   }
@@ -72,6 +73,7 @@ h1 {
   /* Styles for mobile screens (max-width: 480px) */
   @media only screen and (max-width: 480px) {
     body {
+      background: linear-gradient(135deg, #0f0f0f, #252525);
       font-size: 12px;
     }
   }
