@@ -51,6 +51,11 @@ h1 {
     height: 100px;
 }
 
+.clock-image {
+    width: 50%;
+    height: auto;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
